@@ -110,8 +110,8 @@ const CONFIG = {
         link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
       },
     ],
-    secondList: [
-      /*{
+    /*secondList: [
+      {
         name: 'Linkedin',
         link: 'https://linkedin.com/',
       },
@@ -126,7 +126,7 @@ const CONFIG = {
       {
         name: 'Telegram',
         link: 'https://webk.telegram.org',
-      },*/
-    ],
+      },
+    ],*/
   },
 };
