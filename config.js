@@ -11,8 +11,8 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
-  imageBackground: false,
+  name: 'Felix',
+  imageBackground: true,
   openInNewTab: true,
   twelveHourFormat: false,
 
@@ -23,14 +23,14 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: 'f23e5da73182c03456ca0b92513a5891',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '51.151',
+  defaultLongitude: '51.151',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -50,29 +50,35 @@ const CONFIG = {
       icon: 'mail',
       link: 'https://mail.protonmail.com/',
     },
-    {
+    /*{
       id: '3',
       name: 'Todoist',
       icon: 'trello',
       link: 'https://calendar.google.com/calendar/r',
-    },
+    },*/
     {
       id: '4',
       name: 'Calendar',
       icon: 'calendar',
       link: 'https://calendar.google.com/calendar/r',
     },
-    {
+    /*{
       id: '5',
       name: 'Reddit',
       icon: 'bookmark',
       link: 'https://reddit.com',
-    },
+    },*/
     {
       id: '6',
       name: 'Odysee',
       icon: 'youtube',
       link: 'https://odysee.com/',
+    },
+    {
+      id: '7',
+      name: 'YouTube',
+      icon: 'youtube',
+      link: 'https://youtube.com/',
     },
   ],
 
@@ -105,7 +111,7 @@ const CONFIG = {
       },
     ],
     secondList: [
-      {
+      /*{
         name: 'Linkedin',
         link: 'https://linkedin.com/',
       },
@@ -120,7 +126,7 @@ const CONFIG = {
       {
         name: 'Telegram',
         link: 'https://webk.telegram.org',
-      },
+      },*/
     ],
   },
 };
